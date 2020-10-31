@@ -7,9 +7,8 @@ int main(void)
 	{
 		if (is_perfect_number(i))
 		{
-			printf("%d ", i);
-			fflush(stdout);
-		}	}
+			printf("%d\n", i);
+		}
 	return 0;
 }
 
